@@ -63,11 +63,13 @@
 .feature {
     flex: 1;
     min-width: 200px;
-    background-color: #e3e3e3;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     border-radius: 10px;
     padding: 20px;
     text-align: center;
     transition: transform 0.3s ease-in-out;
+    z-index: 3;
 }
 
 .feature:hover {
@@ -100,7 +102,7 @@
     }
 
     .image {
-        z-index: -5;
+        z-index: 1;
         margin-top: -450px;
         width: 100px;
     }
@@ -169,7 +171,7 @@
     }
 
     .image {
-        z-index: -5;
+        z-index: 1;
         margin-top: -450px;
         width: 100px;
     }
